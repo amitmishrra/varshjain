@@ -1,0 +1,285 @@
+html{
+    padding: 0px;
+    margin: 0%;
+}
+
+#box1{
+    display: flex;
+    
+}
+
+
+#ul{
+    position: absolute;
+    display: flex;
+    list-style: none; 
+right: 0px;
+}
+
+.list{
+    margin: 16px;
+    
+}
+
+.list a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+
+}
+
+
+.list :hover{
+    color: rgb(123, 124, 125);
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 110px;
+    width: 100%;
+    z-index: -1;
+
+}
+
+
+#img1{
+    top: 0px;
+    height: 110px;
+    width: 250px;
+    position: absolute;
+
+}
+
+
+/* Top of the site ends here  */
+ 
+
+
+
+
+  
+      #box2{
+          position: absolute;
+        top: 200px;
+        display: flex;
+        flex-direction: column;
+      }
+
+#box2 h1{
+    position: relative;
+    left: 0px;
+    top: 200px;
+    margin: auto;
+    font-size: 30px;
+    color: #ce9999ab;
+  
+}
+
+
+
+ #p1{
+    color: #ce9999ab;
+    position: relative;
+    color: #ce9999ab;
+    top: 200px;
+}
+
+#myVideo {
+    width: 100%;
+    margin-left: -8px;
+    position: absolute;
+    top: 110px;
+    z-index: -1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  #navbar{
+    flex-direction: row-reverse;
+  }
+  
+  
+    #ul{
+        top: 50px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+         list-style: none;
+         margin-left: 2.5px;
+        
+          right: 100px;
+       }
+
+       #navbar::before{
+       height: 70px;
+        width: 100%;
+        position: absolute;
+    }
+.list{
+    padding: -2px;
+    margin: 8px;
+    padding-top: 30px ;
+}
+    .list a{
+        
+        font-size: 20px;
+
+    }
+/* #ul{margin-left: 112px;
+    margin-top: 0px;
+   
+} */
+
+
+#slidebar {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background: #000000d1;
+    left: -330px;
+    transition: .4s;
+        z-index: 1;
+  }
+
+    #logo{
+        margin-left: 8px;
+        font-size: 15px;
+        /* margin-top: -5px; */
+    }
+
+
+
+    #img1{
+        top: 11px;
+        height: 50px;
+        width: 120px;
+        position: absolute;
+        right: 0px
+    }
+
+
+
+
+
+
+
+  #slidebar #toggle{
+    position: absolute;
+    top: 15px;
+    left: 350px;
+       
+    }
+
+
+#toggle span {
+    height: 5px;
+    width: 40px;
+    background-color: #a6a6a6;;
+    display: block;
+    margin-top: 4px;
+}
+
+
+#slidebar.active{
+    left: -100px;
+}
+
+
+/* Top of the site ends here  */
+
+
+
+#myVideo {
+    width: 101%;
+  
+    position: absolute;
+    top: 69px;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+
+#box2 h1{
+    position: relative;
+    left: 0px;
+    font-size: 40px;
+    color: #ce9999ab;
+}
+
+#myVideo {
+    width: 100%;
+    height: 100%;
+    right: auto;
+    left: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
